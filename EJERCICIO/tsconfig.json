@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // para poder hace uso de modulos es necesarios tener es6 o superior
+    "module": "ES6", //Se esta haciendo uso de el sistema de modulos de es6
+    "moduleResolution": "node10", //se van a resolver los modulos de la misma manera que lo hace nodejs
+    "outDir": "./dist", //Directorio de salida de los archivos compilados
+    "esModuleInterop": true, //SE Permite la interoperabilidad con modulos CommonsJS y ES
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, //Permite activar todas las comprobaciones estrictas
+    "skipLibCheck": true //Salta la comprobación de tipos de archivos de la declaración
+  }
+}

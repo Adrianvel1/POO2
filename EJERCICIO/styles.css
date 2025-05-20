@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  margin: 2rem;
+  background: #f3f3eb;
+}
+
+h1,
+h2 {
+  color: #333;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+.candy,
+.cart-item {
+  background: #f3f3eb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background: #c0a415;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+button:hover {
+  background: #a88e13;
+}
+
+#cart,
+#candyList {
+  margin-bottom: 2rem;
+}
+
+#report {
+  background: #f3f3eb;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #444;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
